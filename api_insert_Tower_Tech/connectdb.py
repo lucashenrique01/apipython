@@ -7,7 +7,7 @@ def insert_db(idCaptura, computador, fkTorre, usuario, cpu, mem, disco, internet
             host = "localhost",
             user = usr,
             password = pswd,
-            database = "towerTech"
+            database = "towertech"
         )
 
         if mydb.is_connected():
