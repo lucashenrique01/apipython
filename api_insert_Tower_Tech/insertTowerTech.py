@@ -44,7 +44,7 @@ while i == 0 or i < int(numCapturas):
     
 
     percentualCpu1 = psutil.cpu_percent(interval=int(tempoIntervalo))
-    percentualDisco1 = psutil.disk_usage('C:/').percent
+    percentualDisco1 = psutil.disk_usage('/').percent
     percentualMem1 = psutil.virtual_memory().percent
 
     percentualCpu2 = percentualCpu1 * 1.1	# f(cpu2) = cpu1 * 1.1
