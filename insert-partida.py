@@ -31,7 +31,7 @@ while opcaoMenu != "1" and opcaoMenu != "2" and opcaoMenu != "3" or sair:
         print("1 - Sim")
         print("2 - Não")
         opcaoVencer = input()
-        if(opcaoMenu == 1):
+        if(opcaoMenu == "1"):
             statusPartida = "Venceu"
         else:
             statusPartida = "Perdeu"
@@ -42,7 +42,7 @@ while opcaoMenu != "1" and opcaoMenu != "2" and opcaoMenu != "3" or sair:
         print("1 - Sim")
         print("2 - Não")
         opcaoVencer = input()
-        if(opcaoMenu == 1):
+        if(opcaoMenu == "1"):
             statusPartida = "Venceu"
         else:
             statusPartida = "Perdeu"
@@ -53,7 +53,7 @@ while opcaoMenu != "1" and opcaoMenu != "2" and opcaoMenu != "3" or sair:
         print("1 - Sim")
         print("2 - Não")
         opcaoVencer = input()
-        if(opcaoMenu == 1):
+        if(opcaoMenu == "1"):
             statusPartida = "Venceu"
         else:
             statusPartida = "Perdeu"
